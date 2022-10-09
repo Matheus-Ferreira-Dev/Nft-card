@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* position: relative; */
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 50px; */
+    height: 300px;
+    width: 300px;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    height: 90%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.content-1 {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.176);
+    ;
+}
+
+.content-1 h1 {
+    color: #fff;
+    /* margin-top: 20px; */
+    font-size: 22px;
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.content-1 p {
+    text-align: left;
+    font-size: 16px;
+    color: #fff;
+    /* margin-top: 20px; */
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.card .content-1 img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.icones {
+    display: flex;
+    /* margin-right: 100px; */
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.icones .eth {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icones .eth p {
+    color: aqua;
+    font-weight: 700;
+}
+
+.icones .days {
+    display: flex;
+    gap: 10px;
+}
+
+ footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+    width: 100%;
+}
+
+ footer img {
+    width: 30px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    display: flex;
+}
+
+
+.container footer p {
+    margin-left: 10px;
+    color: #fff;
+}
